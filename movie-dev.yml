@@ -8,7 +8,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://127.0.0.1:8888/eureka
+      defaultZone: http://192.168.1.102/eureka
   instance:
     prefer-ip-address: true
 feign:
