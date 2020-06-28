@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: microservice-movie
 feign:
   hystrix:
     enabled: true
