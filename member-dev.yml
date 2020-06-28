@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:  application:    name: microservice-member
+  datasource:    url: jdbc:mysql://192.168.1.63:3306/springcloud?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: "0000"
+  jpa:    show-sql: true
+    generate-ddl: true
+    database: mysql
+eureka:  client:    fetch-registry: true
+    register-with-eureka: true
+    service-url:      defaultZone: http://127.0.0.1:8888/eureka
+  instance:    prefer-ip-address: true
