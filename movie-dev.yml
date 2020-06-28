@@ -1,6 +1,8 @@
 server:
-  port: 9002
-spring:  application:    name: microservice-movie
+  port: 9022
+spring:
+  application:
+    name: microservice-movie
 eureka:
   client:
     fetch-registry: true
